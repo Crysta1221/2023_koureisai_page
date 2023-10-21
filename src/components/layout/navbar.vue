@@ -23,7 +23,7 @@
         <template #left>
           <VaButton
             
-            :icon="isSidebarVisible ? 'menu_open' : 'menu'"
+            :icon="isSidebarVisible ? 'close' : 'menu'"
             @click="isSidebarVisible = !isSidebarVisible"
             class="mr-4"
           />

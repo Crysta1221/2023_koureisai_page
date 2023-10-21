@@ -4,6 +4,14 @@
       <Icon icon="tabler:login" height="34" width="34" class="logo"/><a style="font-size:28px;" class="font-bold">&ensp;ログイン</a>
     </div>
     <div class="mx-4 ml-4 mt-4 flex justify-center">
+      <va-alert
+        color="warning"
+        icon="warning"
+      >
+        10/22(土)に発生したゲーム側の不具合によりスコアデータが正しく送信されていない現象が発生しています。10/22にデータの送信を行ないますのでまだ取得できない場合はしばらくお待ちください。詳しくはお知らせをご覧ください。
+      </va-alert>
+    </div>
+    <div class="mx-4 ml-4 mt-4 flex justify-center">
       <p class="text-lg">受付時に発行されたゲームIDを入力して「ログイン」ボタンを押してください。</p>
     </div>
     <div class="flex justify-center mt-4">

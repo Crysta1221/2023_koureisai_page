@@ -27,6 +27,9 @@
         <p class="text-2xl">参加日時: {{ date }}</p>
       </div>
       <p class="columun mx-4 text-2xl mt-8">みんなのスコア(ランキング)</p>
+      <div class="mt-4 mx-4 flex justify-normal">
+        <p class="text-lg">現在の上位10位までのランキングが表示されます。2日目は、1日目のランキングの続きが表示されます。</p>
+      </div>
       <div class="mt-4 mx-4 flex justify-center">
         <va-data-table
           :items="items"

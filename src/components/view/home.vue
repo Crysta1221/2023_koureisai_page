@@ -85,7 +85,7 @@ import { Icon } from '@iconify/vue';
         <source src="https://00.gy/2023-3s-movie.mp4" type="video/mp4" />
       </video>
     </div>
-    <p class="mt-2">動画の再生に時間がかかる場合があります。再生されない場合は<a href="https://00.gy/2023-3s-movie.mp4" target="_blank" class="text-blue-600">コチラ</a></p>
+    <p class="mt-2">動画の再生に時間がかかる場合があります。再生されない場合は<a href="https://00.gy/2023-3s-movie.mp4" target="_blank" class="text-blue-500 hover:text-blue-800 underline">コチラ</a></p>
     <div class="flex justify-end mt-4 gap-2">
       <va-button
         @click="hide()"
